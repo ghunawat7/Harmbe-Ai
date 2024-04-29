@@ -106,5 +106,8 @@ function checkTranstionConfrim(){
 
 
 
-// review
+function rabitosite(){
+    window.location.href = "https://rabito.io";
+}
+
 
