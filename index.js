@@ -105,9 +105,16 @@ function checkTranstionConfrim(){
 
 
 
-
+// redirect
 function rabitosite(){
     window.location.href = "https://rabito.io";
+}
+
+// convert
+function convert(){
+    let text = document.getElementById("usdtvalue").value;
+    let rbc=text*5;
+    document.getElementById("rbcvalue").value = rbc;
 }
 
 
